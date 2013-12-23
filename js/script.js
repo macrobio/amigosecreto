@@ -1,6 +1,8 @@
 var lista = [];
 
 function nombreAmigoSecreto(){
+	$("#pares").fadeIn("slow");
+	
 	var x = $("#amigo").val();
 	
 	if(x == ""){
@@ -68,4 +70,8 @@ function armarDuplas(){
 }
 
 
-function
+function reiniciar(){
+	
+	document.location.reload(true);
+	
+}
