@@ -70,7 +70,7 @@ body {
 }
 
 /* ===================
-    ALL: Orange Theme
+    ALL: Cyan Theme
    =================== */
 
 .header-container {
@@ -82,15 +82,35 @@ body {
     border-top: 20px solid #00CCFF;
 }
 
-.header-container,
-.footer-container,
+.header-container
+
+{
+    background: #000;
+    
+}
+.footer-container
+{
+    background: #000;
+    height:410px;
+}
+
+
 .main aside {
     background: #000;
+    
 }
 
 .title {
     color: white;
+   
 }
+
+ .a:hover,
+ .a:visited,
+ .a:link {
+    color: #00CCFF;
+}
+
 
 /* ==============
     MOBILE: Menu
